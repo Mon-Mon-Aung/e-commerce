@@ -1,4 +1,4 @@
-# Public Installation {Still **Uncompleated** project}
+# Public Installation {Still **Uncompleted** project}
 - Clone repo
 - composer install
 - cp .env.example .env
