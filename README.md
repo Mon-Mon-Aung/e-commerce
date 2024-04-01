@@ -13,7 +13,7 @@
     - name a project, vue js, Vue, No TypeScript, No JSX, Yes Vue Router, Yes Pinia, No Unit Testing, No End-to-End Testing, Yes ESLint, Yes Prettier, No Vue DevTools
     - cd project_name, npm install, npm run format, npm run dev
     - ### Installing Tailwind in Vue project
-    - [Step-by-step Tailwind installation] (https://tailwindcss.com/docs/guides/vite)
+    - [Step-by-step Tailwind installation](https://tailwindcss.com/docs/guides/vite)
     - In main.js ->import './index.css'
     - npm run dev
     - npm install vuex@next
