@@ -1,5 +1,6 @@
 <?php
 
+use App\Jobs\SendWelcomeEmail;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Cookie;
@@ -18,6 +19,8 @@ use App\Http\Controllers\AcumaticaController;
 */
 
 Route::get('/', function () {
+    // (new SendWelcomeEmail())->handle();
+    SendWelcomeEmail::dispatch()->delay(5);
     return view('welcome');
 });
 
